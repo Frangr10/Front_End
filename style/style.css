@@ -1,0 +1,117 @@
+body {
+    background-color: #000000;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: Monoton;
+    src: url(./fonts/Monoton-Regular.ttf);
+}
+
+header {
+    display: flex;
+    background-color: #393E41;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+    .nav {
+        display: flex;
+    }
+
+    .logo {
+        color: white;
+        padding: 0 20px;
+        font-size: 20px;
+        font-family: Monoton;
+    }
+
+    .nav_menu {
+        display: flex;
+        list-style: none;
+        margin-right: 25px;
+    }
+        .list-item {
+            text-decoration: none;
+            padding: 5px 15px;
+            border-radius: 3px;
+            color: white;
+            margin: 10px;
+        }
+            .list-item:hover {
+                background-color: #548687;
+            }
+
+article {
+    display: flex;
+}
+
+    section {
+        display: flex;
+    }
+
+    h1 {
+        margin-left: 20px;
+    }
+
+.arti {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    align-items: center;
+}
+.articulos {
+    background-color: #393E41;
+    width: 300px;
+    height: 450px;
+    padding: 3px;
+    margin: 10px 20px;
+    border: white 2px solid;
+    border-radius: 7px;
+}
+
+    .cont-imagen{
+    }
+        .img_imbricata {
+            width: 300px;
+            border-radius: 5px;
+        }
+
+    .contenedor{
+        background-color: #6B6054;
+        
+    }
+        
+        .nombre {
+        text-align: center;
+        margin-top: 10px;
+        }
+    
+        .descrip {
+            text-align: center;
+            margin-top: 6px;
+            width: 300px;
+            height: 130px;
+        }
+
+        .div-boton{
+            display: flex;
+            justify-content: center;
+        }
+
+            .boton {
+                display: flex;
+                background-color: #FFFC31;
+                padding: 5px 20px;
+                border-radius: 5px;
+            }
+
+footer {
+    display: flex;
+}
+
